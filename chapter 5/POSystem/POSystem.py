@@ -32,7 +32,7 @@ def displayMenu():
         return selected
     elif selected == "t":
         return selected
-    elif selected == "e":
+    elif selected == "e":  
         return selected
     else:
         error_message = "Not valid selection"

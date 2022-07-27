@@ -45,15 +45,23 @@ def main():
         prompt = input()
         if prompt == "List 1":
             final_list = list1
+            if not final_list:
+                print("List is empty")
             displayList(prompt, final_list)
         elif prompt == "List 2":
             final_list = list2
+            if not final_list:
+                print("List is empty")
             displayList(prompt, final_list)
         elif prompt == "Added List":
             final_list = added_list
+            if not final_list:
+                print("List is empty")
             displayList(prompt, final_list)
         elif prompt == "Multiplied List":
             final_list = multiplicated_list
+            if not final_list:
+                print("List is empty")
             displayList(prompt, final_list)
 
 if __name__ == "__main__":
